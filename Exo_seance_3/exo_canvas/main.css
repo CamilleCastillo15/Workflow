@@ -1,0 +1,32 @@
+#ball {
+	
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background-color:red;
+
+	width:100px;
+	height:100px;
+
+}
+
+#canvas {
+
+	margin-top: 200px;
+
+}
+
+#canvas_v2 {
+
+	margin-top: 300px;
+
+}
+
+#canvas_v3 {
+
+	
+	margin-left: 400px;
+	margin-top:350px;
+
+}

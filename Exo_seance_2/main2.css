@@ -1,0 +1,38 @@
+html, body {
+
+	height:100%
+
+}
+
+body {
+
+	perspective:600px;
+	
+}
+
+#cube {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:100px;
+	height:100px;
+	margin-left:-50px;
+	margin-top:-50px;
+	animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+	
+	from{
+
+		transform: rotateY(0);
+
+	}
+
+	to{
+
+		transform:rotateY(360deg)
+
+	}
+
+}

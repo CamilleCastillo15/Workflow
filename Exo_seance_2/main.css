@@ -1,0 +1,35 @@
+#btn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translation(-50%, -50%);
+	font-size:38px;
+	font-family:Helvetica;
+	color:#000;
+	text-decoration:none;
+}
+
+#btn::after {
+	position:absolute;
+	content:"";
+	display:block;
+	bottom:0;
+	left:0;
+	height:1px;
+	width:100%;
+	background-color: green;
+	transform: scaleX(30);
+	transition:all 50%ms;
+}
+
+#btn:hover::after{
+	transform:scaleX(0);
+}
+
+#plane {
+
+	height:100px;
+	width:100px;
+	background-color: red;
+
+}
